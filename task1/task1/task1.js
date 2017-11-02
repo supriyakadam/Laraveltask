@@ -16,12 +16,11 @@
               count = 1;
               j++;
               result.push(last = singleArr[i]);
-              count_arr[j] = count;
 
           } else {
               count++;
-              count_arr[j] = count;
           }
+		   count_arr[j] = count;
       }
 
       insertInAnObject();
